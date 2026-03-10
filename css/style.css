@@ -197,6 +197,7 @@ img {
 .footer{
 
   background-color: white;
+  padding: 50px;
 }
 
 .footer span{
@@ -213,8 +214,20 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px;
+
 
   color: white;
 }
 
+.footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+footer p{
+  margin-top: 60px;
+  text-align: center;
+}
