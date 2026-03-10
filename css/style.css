@@ -1,0 +1,57 @@
+/*-------------------------------------------------------------------------------
+GÉNÉRIQUE 
+--------------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------------------------------------
+ÉLÉMENTS 
+--------------------------------------------------------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: #222;
+    font-family: "Raleway", sans-serif;
+    
+
+}
+
+a{
+    text-decoration: none;
+    line-height: 100%
+}
+
+.logo {
+    font-size: 1.75rem;
+}
+
+/*-------------------------------------------------------------------------------
+COMPONENTS 
+--------------------------------------------------------------------------------*/
+.wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: white;
+}
+
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
