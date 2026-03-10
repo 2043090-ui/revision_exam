@@ -29,8 +29,43 @@ a{
 }
 
 .logo {
-    font-size: 1.75rem;
+    font: 900 1.75rem "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: black;
 }
+
+.menu a{
+    font-size:1.125rem ;
+    font-weight: bold;
+
+    color: black;
+
+}
+
+.menu a:hover{
+    color: #D300B7;
+}
+
+button{
+    background-color: transparent;
+    border: 4px solid #D300B7;
+    border-radius: 56px;
+
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 100%;
+
+    padding: 10px 30px;
+    gap: 10px;
+
+    
+
+}
+
+button a{
+    color: #D300B7;
+}
+
 
 /*-------------------------------------------------------------------------------
 COMPONENTS 
@@ -40,18 +75,25 @@ COMPONENTS
     margin: 0 auto;
 }
 
+
+
 .header{
     background-color: white;
+    padding: 20px;
 }
 
 .header .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
+
 
 ul{
     display: flex;
     align-items: center;
     gap: 40px;
+
+    list-style: none;
 }
