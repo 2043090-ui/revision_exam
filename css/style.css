@@ -16,6 +16,8 @@ html {
 ÉLÉMENTS 
 --------------------------------------------------------------------------------*/
 
+/*--Général--*/
+
 body {
   margin: 0;
   padding: 0;
@@ -23,10 +25,17 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+p{
+  font: 400 1.125rem/160% "Roboto", sans-serif;
+  letter-spacing: 0;
+}
+/*--header--*/
+
+
 a {
   text-decoration: none;
   line-height: 100%;
-}
+} 
 
 .logo {
   font: 900 1.75rem "Raleway", sans-serif;
@@ -59,8 +68,18 @@ button {
 }
 
 button a {
-  color: #d300b7;
+  color: #d300b7; 
 }
+
+button:hover a{
+  color: white;
+}
+
+button:hover{
+  background-color: #d300b7;
+}
+
+/*--héro--*/
 
 h1 {
   font-size: 4rem;
@@ -71,7 +90,7 @@ h1 {
 .hero p {
   color: white;
 
-  font: 400 1.5rem/160% "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 .bouton_hero {
@@ -80,13 +99,45 @@ h1 {
   align-items: center;
 }
 
+/*--articles--*/
+
+h2{
+  font-size: 3rem;
+  line-height: 110%;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  margin: 0;
+  
+}
+
+
+h3{
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 110%;
+  text-transform: uppercase;
+
+  color: #d300b7;
+
+}
+
+.card p{
+  text-align: center;
+}
+
 /*-------------------------------------------------------------------------------
 COMPONENTS 
 --------------------------------------------------------------------------------*/
+
+/*--wrapper--*/
 .wrapper {
   max-width: 1180px;
   margin: 0 auto;
 }
+
+
+/*--header--*/
 
 .header {
   background-color: white;
@@ -111,9 +162,8 @@ ul {
   list-style: none;
 }
 
-.contenu{
-  margin: 100px 0;
-}
+/*--héro--*/
+
 
 .hero {
   background-image: url(../images/hero.jpg);
@@ -139,6 +189,12 @@ ul {
   color: #d300b7;
 }
 
+/*--articles--*/
+
+.contenu{
+  margin: 100px 0;
+}
+
 .titre_article {
 
   margin-bottom: 70px ;
@@ -151,8 +207,9 @@ align-items: center;
 }
 
 .titre_article p{
-  width: 735px;
   text-align: center;
+
+  width: 800px;
 }
 
 
@@ -194,6 +251,9 @@ img {
   top: -15px;
 }
 
+/*--footer--*/
+
+
 .footer{
 
   background-color: white;
@@ -201,7 +261,7 @@ img {
 }
 
 .footer span{
-  font-size: 54px;
+  font-size: 3.375rem;
 }
 
 .icone{
@@ -217,6 +277,11 @@ img {
 
 
   color: white;
+}
+
+.icone:hover{
+  background-color: black;
+  border-color: black;
 }
 
 .footer ul{
